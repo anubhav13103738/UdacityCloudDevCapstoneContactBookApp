@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "updateContacts",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+	"address": {
+      "type": "string"
+    },
+	"contactNumber": {
+      "type": "number"
+    },
+	"contacted": {
+      "type": "boolean"
+    }
+  },
+  "required": ["name", "contacted"],
+  "additionalProperties": false
+}
