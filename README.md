@@ -8,6 +8,8 @@ Functionality:
 4. Add image for contact image through edit contact which goes to S3 bucket
 5. Login
 6. Logout
+
+
 Additional APIs:
 1. fetech contact by contact ID
 2. update contact
