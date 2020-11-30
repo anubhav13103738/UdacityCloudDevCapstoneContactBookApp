@@ -13,6 +13,8 @@ Functionality:
 Additional APIs:
 1. fetech contact by contact ID
 2. update contact
+
+
 These APIs can be run through postman from the attached collection.
 
 # API endpoint
@@ -26,6 +28,7 @@ https://mj5qem5iwh.execute-api.ap-south-1.amazonaws.com/dev
 # Frontend
 
 Frontend is built on react. Just need to put apiID i.e deployed serverless backed id in config.ts and we are good to go run frontend from the following commands:
+
 1. cd client
 2. npm install
 3. npm run start
@@ -34,6 +37,7 @@ Frontend is built on react. Just need to put apiID i.e deployed serverless backe
 # Backend
 
 Backend is built on serverless. You may use the following commands to deploy backend:
+
 1. cd backend
 2. npm install
 3. sls deploy -v --aws-profile serverless
@@ -42,7 +46,9 @@ Following are the screenshot of AWS deployed backend:
 
 ![](images/API.PNG)
 
+
 ![](images/lambda.PNG)
+
 
 ![](images/s3.PNG)
 
